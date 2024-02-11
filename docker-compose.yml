@@ -4,7 +4,7 @@ services:
   javaapp:
     image: docker.io/satish736/abc:latest
     ports:
-      - 80:8080
+      - 8090:8080
     networks:
       - isolated
   mysqlapp:
