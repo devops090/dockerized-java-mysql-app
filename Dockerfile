@@ -1,6 +1,6 @@
 FROM docker.io/tomcat:9.0-alpine
 WORKDIR /app
-COPY --from=packageSourceCode /app/target/RESTfulExample.war /usr/local/tomcat/webapps
+COPY target/RESTfulExample.war /usr/local/tomcat/webapps
 # the port which the tomcat is listening inside the container
 EXPOSE 8080
 # run the tomcat
