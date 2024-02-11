@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build -t mixaverross88/dockerize_java_mysql_example_project .
+docker build -t docker.io/dockerize_java_mysql_example_project .
